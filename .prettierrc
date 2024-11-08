@@ -1,5 +1,21 @@
 {
-  "singleQuote": true,
+  "tabWidth": 2,
   "semi": true,
-  "tabWidth": 2
+  "singleQuote": false,
+  "printWidth": 200,
+
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "tabWidth": 4
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
 }
